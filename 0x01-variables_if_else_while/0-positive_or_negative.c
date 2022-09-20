@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
 /**
- *main-entry point
- *@progarm to assign random number to variable n
- *return:always zero
+ *main - entry point
+ *
+ *Return:always return 0
+ *
  */
 int main(void)
 {
