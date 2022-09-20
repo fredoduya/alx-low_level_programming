@@ -6,9 +6,9 @@
  * @s: string to print
  */
 void print_rev(char *s)
-{	int i =strlen(s);
+{	int i = strlen(s);
 
-	while (1--)
+	while (i--)
 		
 		putchar(*(s + i));
 	
