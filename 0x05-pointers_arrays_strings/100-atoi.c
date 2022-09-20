@@ -10,7 +10,7 @@
  */
 int _atoi(char *s)
 {
-	int i;
+	int i = _strlen(s);
 	int np = 0;
 	int c;
 	int d = 1;
