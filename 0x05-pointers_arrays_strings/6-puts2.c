@@ -1,21 +1,25 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- * puts2 - puts string twice
- *
- * @str: string to put twice
+ * puts2 - prints every other character of a string
+ * @str: input character
+ * Return: No return
  */
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
+	int j = 0;
 
-	for (i = 0; i < _strlen(str); i++)
+	while (str[i] != '\0')
 	{
-		if (i % 2 == 0)
-		{
-			putchar(str[i]);
-		}
+		i++;
 	}
-	putchar('\n');
+
+	while (j < i)
+	{
+		_putchar(str[j]);
+		j = j + 2;
+	}
+	_putchar('\n');
 }
 
