@@ -6,13 +6,12 @@
  * @s: string to print
  */
 void print_rev(char *s)
-{
-	int i;
+{	int i =strlen(s);
 
-	for (i = _strlen(s); i >= 0; i--)
-	{
+	while (1--)
+		
 		putchar(*(s + i));
-	}
+	
 	putchar('\n');
 }
 
